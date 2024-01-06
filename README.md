@@ -1,7 +1,7 @@
 # DevQualityOps
 
 ## Bem-vindo ao repositório DevQualityOps! Aqui, unimos o poder do DevOps à busca incessante pela qualidade. 🚀
-### 💡Este espaço é dedicado a práticas integradas que aceleram o desenvolvimento, garantindo a entrega contínua de software excepcional. Explore nosso conjunto de ferramentas e guias para criar uma cultura colaborativa e eficiente, onde qualidade e operações convergem harmoniosamente. Vamos juntos elevar o padrão! 🌟🛠️
+ 💡Este espaço é dedicado a práticas integradas que aceleram o desenvolvimento, garantindo a entrega contínua de software excepcional. Explore nosso conjunto de ferramentas e guias para criar uma cultura colaborativa e eficiente, onde qualidade e operações convergem harmoniosamente. Vamos juntos elevar o padrão! 🌟🛠️
 ---
 
 ## Divisão do repo
