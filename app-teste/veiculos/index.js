@@ -11,10 +11,10 @@ app.use(bodyParser.json());
 
 // Configuração da conexão com o banco de dados
 const pool = new Pool({
-  user: 'erikpatekoski',
-  host: 'postgres-db',
-  database: 'veiculos',
-  password: '102030',
+  user: process.env.POSTGRES_USER,
+  host: process.env.POSTGRES_HOST,
+  database: process.env.POSTGRES_DB,
+  password: process.env.POSTGRES_PASSWORD,
   port: 5432,
 });
 
