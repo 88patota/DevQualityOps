@@ -1,0 +1,25 @@
+version: '3'
+services:
+  app:
+    build:
+      context: .
+    ports:
+      - "4000:4000"
+    networks:
+      - my_network
+
+  postgres-db:
+    image: postgres:latest
+    container_name: postgres-db
+    ports:
+      - "5433:5432"
+    environment:
+      POSTGRES_USER: erikpatekoski
+      POSTGRES_PASSWORD: 102030
+      POSTGRES_DB: veiculos
+    networks:
+      - my_network
+
+networks:
+  my_network:
+    driver: bridge

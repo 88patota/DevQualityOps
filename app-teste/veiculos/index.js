@@ -12,7 +12,7 @@ app.use(bodyParser.json());
 // Configuração da conexão com o banco de dados
 const pool = new Pool({
   user: 'erikpatekoski',
-  host: 'localhost',
+  host: 'postgres-db',
   database: 'veiculos',
   password: '102030',
   port: 5432,
